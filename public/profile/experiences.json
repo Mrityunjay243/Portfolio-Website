@@ -1,33 +1,38 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Open-Source Contributor",
+            "subtitle": "North Carolina State University",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Modernized the Expertiza e-learning platform, using TypeScript and Ruby on Rails, and introduced admin rights. Deployed backend on Docker for improved portability and scalability.",
+                "Executed unit tests for CRUD operations, ensuring accurate JSON responses and enhancing application reliability through automated CI/CD pipelines."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "09/2023 – 12/2023"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Business Analyst - Data and Analytics",
+            "subtitle": "Quantiphi, Inc.",
+            "workType": "IFull-Time",
             "workDescription": [
-                "Worked on abc."
+                "Worked on the migration of 24TB of TPC-DS dataset across 30 tables from S3 to GCS. Measured the data-ingestion latencies to BigQuery, and achieved 30% faster results compared to the existing Snowflake environment.", 
+                "Analyzed the P-95 metrics of QthD, achieved 20% faster query run time from the load testing done on Jmeter",
+                "Benchmarked tableau and looker dashboards for a client, after their migration to GCP. Achieved 70% faster load times.",
+                "Created user stories (along with design teams) for the selected personas for a PLM product."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "07/2022 – 07/2023"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Business Analyst - Intern",
+            "subtitle": "Quantiphi, Inc.",
+            "workType": "Intern",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Created project roadmaps, scoped use-cases and designed future state architectures on Google Cloud.",
+                "Designed hands-on labs to onboard greenfield customers - migrating from AWS EMR to serverless spark on GCP.", 
+                "Collaborated with team members using version control systems such as Gitlabs to organize modifications & assign tasks.", 
+                "Received full-time offer after completion of 6-month internship from January to July in 2022."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "01/2022 – 07/2022"
         }
     ]
 }

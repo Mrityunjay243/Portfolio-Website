@@ -6,24 +6,36 @@
             "items" : [
      
                 {
-                    "icon": "images/skills/java.png",
-                    "title": "Java"
-                },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
-                },
-                {
-                    "icon": "images/skills/js.png",
-                    "title": "JavaScript"
+                    "icon": "images/skills/C++.png",
+                    "title": "C++"
                 },
                 {
                     "icon": "images/skills/python.png",
                     "title": "Python"
                 },
                 {
-                    "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/mongo-db.png",
+                    "title": "MongoDB"
+                },
+                {
+                    "icon": "images/skills/postgres.png",
+                    "title": "Postgres"
+                }, 
+                {
+                    "icon": "images/skills/Typescript.svg", 
+                    "title": "TypeScript"
+                }, 
+                {
+                    "icon": "images/skills/cloud-bigtable.svg",
+                    "title": "Bigtable"
+                }, 
+                {
+                    "icon": "images/skills/bigquery.svg",
+                    "title": "BigQuery"
                 }
         ]},
         {
@@ -31,7 +43,7 @@
             "items" : [
                 {
                     "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "title": "Flask"
                 },
                 {
                     "icon": "images/skills/react.png",
@@ -40,6 +52,26 @@
                 {
                     "icon": "images/skills/nodejs.png",
                     "title": "Nodejs"
+                }, 
+                {
+                    "icon": "images/skills/django.png",
+                    "title": "Django"
+                }, 
+                {
+                    "icon": "images/skills/numpy.svg",
+                    "title": "Numpy"
+                }, 
+                {
+                    "icon": "images/skills/pandas.svg",
+                    "title": "Pandas"
+                }, 
+                {
+                    "icon": "images/skills/tf.png",
+                    "title": "Tensorflow"
+                }, 
+                {
+                    "icon": "images/skills/plotly.jpg",
+                    "title": "Plotly"
                 }
             ]
         },
@@ -47,8 +79,8 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "icon": "images/skills/google-cloud.svg",
+                    "title": "Google Cloud Platform"
                 },
                 {
                     "icon": "images/skills/git.png",
@@ -59,5 +91,18 @@
                     "title": "Docker"
                 }
             ]
-    }
+        }, 
+        {
+            "title" : "Certifications",
+            "items": [
+                {
+                    "icon": "images/skills/ACE.jpg",
+                    "title": "ACE - GCP"
+                },
+                {
+                    "icon": "images/skills/ML.jpg",
+                    "title": "   ML(Stanford Online)"
+                }
+            ]
+        }
 ]}
