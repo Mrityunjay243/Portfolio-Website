@@ -1,0 +1,31 @@
+{
+    "education":[
+        {
+            "title": "Fall 2023 - Summer 2025",
+            "cardTitle": "Master of Computer Science",
+            "cardSubtitle":"North Carolina State University",
+            "cardDetailedText": "CGPA - 3.6",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Fall 2018 - Summer 2022",
+            "cardTitle": "Bachelor of Technology - Electronics and Communication Engineering",
+            "cardSubtitle":"University of Mumbai - Sardar Patel Institute of Technology",
+            "cardDetailedText": "CGPA - 8.73",
+            "icon" : {
+                "src": "images/education/lorem-ipsum2.png"
+            }
+        },
+        {
+            "title": "Apr 2018",
+            "cardTitle": "High School",
+            "cardSubtitle":"Apeejay School Nerul - Mumbai, India",
+            "cardDetailedText": "Grade - 93%", 
+            "icon" : {
+                "src": "images/education/lorem-ipsum3.png"
+            }
+        }
+    ]
+}
