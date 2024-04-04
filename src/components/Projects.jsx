@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import { Container, Row, Button } from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
 import PropTypes from 'prop-types';
@@ -20,17 +20,18 @@ const styles = {
 const Projects = (props) => {
   const theme = useContext(ThemeContext);
   const { header } = props;
-  const [data, setData] = useState(null);
+  // const [data, setData] = useState(null);
   const [showMore, setShowMore] = useState(false);
 
-  useEffect(() => {
-    fetch(endpoints.projects, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+  // useEffect(() => {
+  //   fetch(endpoints.projects, {
+  //     method: 'GET',
+  //   })
+  //     .then((res) => res.json())
+  //     .then((res) => setData(res))
+  //     .catch((err) => err);
+  // }, []);
+  const data = endpoints.projects;
   const numberOfItems = showMore && data ? data.length : 6;
   return (
     <>

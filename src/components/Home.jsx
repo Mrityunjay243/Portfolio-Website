@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { } from 'react';
 import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal';
 import endpoints from '../constants/endpoints';
@@ -22,16 +22,18 @@ const styles = {
 };
 
 function Home() {
-  const [data, setData] = useState(null);
+  // const [data, setData] = useState(null);
 
-  useEffect(() => {
-    fetch(endpoints.home, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+  // useEffect(() => {
+  //   fetch(endpoints.home, {
+  //     method: 'GET',
+  //   })
+  //     .then((res) => res.json())
+  //     .then((res) => setData(res))
+  //     .catch((err) => err);
+  // }, []);
+
+  const data = endpoints.home;
 
   return data ? (
     <Fade>

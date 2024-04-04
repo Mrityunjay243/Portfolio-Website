@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { } from 'react';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
@@ -21,7 +21,7 @@ const styles = {
 
 function Skills(props) {
   const { header } = props;
-  const [data, setData] = useState(null);
+  // const [data, setData] = useState(null);
 
   const renderSkillsIntro = (intro) => (
     <h4 style={styles.introTextContainer}>
@@ -29,14 +29,15 @@ function Skills(props) {
     </h4>
   );
 
-  useEffect(() => {
-    fetch(endpoints.skills, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+  // useEffect(() => {
+  //   fetch(endpoints.skills, {
+  //     method: 'GET',
+  //   })
+  //     .then((res) => res.json())
+  //     .then((res) => setData(res))
+  //     .catch((err) => err);
+  // }, []);
+  const data = endpoints.skills;
 
   return (
     <>

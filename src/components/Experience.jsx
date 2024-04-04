@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
@@ -33,16 +33,17 @@ const styles = {
 function Experience(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
-  const [data, setData] = useState(null);
+  // const [data, setData] = useState(null);
 
-  useEffect(() => {
-    fetch(endpoints.experiences, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res.experiences))
-      .catch((err) => err);
-  }, []);
+  // useEffect(() => {
+  //   fetch(endpoints.experiences, {
+  //     method: 'GET',
+  //   })
+  //     .then((res) => res.json())
+  //     .then((res) => setData(res.experiences))
+  //     .catch((err) => err);
+  // }, []);
+  const data = endpoints.experiences.experiences;
 
   return (
     <>

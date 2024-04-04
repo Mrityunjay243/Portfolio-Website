@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
@@ -13,16 +13,17 @@ const styles = {
 
 function Social() {
   const theme = useContext(ThemeContext);
-  const [data, setData] = useState(null);
+  // const [data, setData] = useState(null);
 
-  useEffect(() => {
-    fetch(endpoints.social, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+  // useEffect(() => {
+  //   fetch(endpoints.social, {
+  //     method: 'GET',
+  //   })
+  //     .then((res) => res.json())
+  //     .then((res) => setData(res))
+  //     .catch((err) => err);
+  // }, []);
+  const data = endpoints.social;
 
   return (
     <div className="social">

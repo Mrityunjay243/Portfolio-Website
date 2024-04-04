@@ -1,5 +1,5 @@
 const endpoints = {
-  navbar: 
+  navbar:
   {
     "logo" : {
         "source": "images/logo.png",
@@ -111,35 +111,35 @@ const endpoints = {
             "items" : [
      
                 {
-                    "icon": "images/skills/C++.png",
+                    "icon": "./skills/C++.png",
                     "title": "C++"
                 },
                 {
-                    "icon": "images/skills/python.png",
+                    "icon": "./skills/python.png",
                     "title": "Python"
                 },
                 {
-                    "icon": "images/skills/js.png",
+                    "icon": "./skills/js.png",
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "images/skills/mongo-db.png",
+                    "icon": "skills/mongo-db.png",
                     "title": "MongoDB"
                 },
                 {
-                    "icon": "images/skills/postgres.png",
+                    "icon": "./skills/postgres.png",
                     "title": "Postgres"
                 }, 
                 {
-                    "icon": "images/skills/Typescript.svg", 
+                    "icon": "./skills/Typescript.svg", 
                     "title": "TypeScript"
                 }, 
                 {
-                    "icon": "images/skills/cloud-bigtable.svg",
+                    "icon": "./skills/cloud-bigtable.svg",
                     "title": "Bigtable"
                 }, 
                 {
-                    "icon": "images/skills/bigquery.svg",
+                    "icon": "./skills/bigquery.svg",
                     "title": "BigQuery"
                 }
         ]},
