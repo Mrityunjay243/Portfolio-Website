@@ -1,5 +1,5 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import { withRouter } from 'react-router';
 import { NavLink } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
@@ -38,17 +38,18 @@ const InternalNavLink = styled(NavLink)`
 
 const NavBar = () => {
   const theme = useContext(ThemeContext);
-  const [data, setData] = useState(null);
+  // const [data, setData] = useState(null);
   const [expanded, setExpanded] = useState(false);
 
-  useEffect(() => {
-    fetch(endpoints.navbar, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+  // useEffect(() => {
+  //   fetch(endpoints.navbar, {
+  //     method: 'GET',
+  //   })
+  //     .then((res) => res.json())
+  //     .then((res) => setData(res))
+  //     .catch((err) => err);
+  // }, []);
+  const data = endpoints.navbar;
 
   return (
     <Navbar

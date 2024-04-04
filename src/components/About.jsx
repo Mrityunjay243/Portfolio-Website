@@ -26,7 +26,7 @@ const styles = {
 
 function About(props) {
   const { header } = props;
-  const [data, setData] = useState(null);
+  // const [data, setData] = useState(null);
 
   const parseIntro = (text) => (
     <ReactMarkdown
@@ -34,14 +34,16 @@ function About(props) {
     />
   );
 
-  useEffect(() => {
-    fetch(endpoints.about, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+  // useEffect(() => {
+  //   fetch(endpoints.about, {
+  //     method: 'GET',
+  //   })
+  //     .then((res) => res.json())
+  //     .then((res) => setData(res))
+  //     .catch((err) => err);
+  // }, []);
+
+  const data = endpoints.about;
 
   return (
     <>
