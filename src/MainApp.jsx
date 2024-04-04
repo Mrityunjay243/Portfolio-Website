@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
 import Home from './components/Home';
@@ -24,7 +24,11 @@ function MainApp() {
       <main className="main">
         <Switch>
           <Suspense fallback={<FallbackSpinner />}>
-            <Route exact path="/" component={Home} />
+            {/* <Route exact path="/Portfolio-Website" component={Home} /> */}
+            {/* Redirect from root "/" to "/Portfolio-Website" */}
+            <Route exact path="/" render={() => <Redirect to="/Portfolio-Website" />} />
+            {/* Route for "/Portfolio-Website" */}
+            <Route exact path="/Portfolio-Website" component={Home} />
             {data
               && data.sections.map((route) => {
                 const SectionComponent = React.lazy(() => import('./components/' + route.component));

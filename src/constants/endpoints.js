@@ -1,7 +1,7 @@
 const endpoints = {
   navbar: {
     logo: {
-      source: 'images/logo.png',
+      source: `${process.env.PUBLIC_URL}/images/logo.png`,
       height: 45,
       width: 50,
     },
@@ -88,7 +88,7 @@ const endpoints = {
   },
   about: {
     about: " As a graduate of the Master's in Computer Science program at North Carolina State University, I have acquired a strong foundation in software engineering and system design methodologies. I have also developed my skills in software engineering, machine learning, and cloud computing, as evidenced by my projects, certification from Google Cloud, and my publications in IEEE. \n \n I have applied my knowledge and skills in real-world projects as a Business Analyst at Quantiphi for the Data and Analytics practice, focused on US West customers. I worked on enterprise data warehouse modernization projects, involving migrations from legacy tools to Google Cloud's data suite solutions. I also designed future state architectures, performed revenue cost analysis, created engagement roadmaps, and implemented risk mitigation strategies. \n \n I am passionate about solving complex problems and driving technological innovation. I am looking for new opportunities to leverage my expertise and contribute to the growth and success of leading organizations in the field of Software Engineering, Data Analytics, and Data Science. I am eager to learn from and collaborate with talented professionals and deliver value-added solutions.",
-    imageSource: 'images/about/profile.jpg',
+    imageSource: `${process.env.PUBLIC_URL}/images/about/profile.jpg`,
   },
   skills: {
     intro: 'I love to learn new things and experiment with new technologies. These are some of the major languages, technologies, tools, and platforms I have worked with:',
@@ -97,35 +97,35 @@ const endpoints = {
         title: 'Languages & Databases',
         items: [
           {
-            icon: '../skills/C++.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/C++.png`,
             title: 'C++',
           },
           {
-            icon: 'images/skills/python.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/python.png`,
             title: 'Python',
           },
           {
-            icon: 'images/skills/js.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/js.png`,
             title: 'JavaScript',
           },
           {
-            icon: 'images/skills/mongo-db.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/mongo-db.png`,
             title: 'MongoDB',
           },
           {
-            icon: 'images/skills/postgres.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/postgres.png`,
             title: 'Postgres',
           },
           {
-            icon: 'images/skills/Typescript.svg',
+            icon: `${process.env.PUBLIC_URL}/images/skills/Typescript.svg`,
             title: 'TypeScript',
           },
           {
-            icon: 'images/skills/cloud-bigtable.svg',
+            icon: `${process.env.PUBLIC_URL}/images/skills/cloud-bigtable.svg`,
             title: 'Bigtable',
           },
           {
-            icon: 'images/skills/bigquery.svg',
+            icon: `${process.env.PUBLIC_URL}/images/skills/bigquery.svg`,
             title: 'BigQuery',
           },
         ],
@@ -134,35 +134,35 @@ const endpoints = {
         title: 'Frameworks & Technologies',
         items: [
           {
-            icon: 'images/skills/android_new.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/android_new.png`,
             title: 'Android',
           },
           {
-            icon: 'images/skills/react.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/react.png`,
             title: 'React',
           },
           {
-            icon: 'images/skills/nodejs.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/nodejs.png`,
             title: 'Node.js',
           },
           {
-            icon: 'images/skills/django.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/django.png`,
             title: 'Django',
           },
           {
-            icon: 'images/skills/numpy.svg',
+            icon: `${process.env.PUBLIC_URL}/images/skills/numpy.svg`,
             title: 'Numpy',
           },
           {
-            icon: 'images/skills/pandas.svg',
+            icon: `${process.env.PUBLIC_URL}/images/skills/pandas.svg`,
             title: 'Pandas',
           },
           {
-            icon: 'images/skills/tf.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/tf.png`,
             title: 'TensorFlow',
           },
           {
-            icon: 'images/skills/plotly.jpg',
+            icon: `${process.env.PUBLIC_URL}/images/skills/plotly.jpg`,
             title: 'Plotly',
           },
         ],
@@ -171,15 +171,15 @@ const endpoints = {
         title: 'Tools & Platforms',
         items: [
           {
-            icon: 'images/skills/google-cloud.svg',
+            icon: `${process.env.PUBLIC_URL}/images/skills/google-cloud.svg`,
             title: 'Google Cloud Platform',
           },
           {
-            icon: 'images/skills/git.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/git.png`,
             title: 'Git',
           },
           {
-            icon: 'images/skills/docker.png',
+            icon: `${process.env.PUBLIC_URL}/images/skills/docker.png`,
             title: 'Docker',
           },
         ],
@@ -188,12 +188,12 @@ const endpoints = {
         title: 'Certifications',
         items: [
           {
-            icon: 'images/skills/ACE.jpg',
+            icon: `${process.env.PUBLIC_URL}/images/skills/ACE.jpg`,
             title: 'ACE - GCP',
           },
           {
-            icon: 'images/skills/ML.jpg',
-            title: 'Machine Learning (Stanford Online)',
+            icon: `${process.env.PUBLIC_URL}/images/skills/ML.jpg`,
+            title: 'ML (Stanford Online)',
           },
         ],
       },
